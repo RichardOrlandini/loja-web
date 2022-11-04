@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #1d1d29;
+
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+
+  height: 720px;
+  width: 1280px;
+
+  margin: 0 auto;
+  font-family: 'JetBrains Mono', monospace;
+} 
+
+.logotipoHome{
+  max-width: 100px;
+}
+
+
+
+span{
+  color: rgb(196, 6, 6);
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 1060px;
+  margin: 74px auto;
+  margin-right: 120px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 50px;
+  
+}
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: rgb(139, 136, 136);
+  font-weight: 700;
+}
+
+main{
+  display: flex;
+  justify-content: baseline;
+  gap: 350px;
+}
+
+.home1{
+  max-width: 200px;
+  margin-left: 100px;
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  width: 400px;
+}
+
+form label{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+
+  width: 100%;
+  padding-bottom: 16px;
+  color: rgb(251, 168, 168);
+}
+
+form input{
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  
+  height: 56px;
+  width: 100%;
+
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  background-color:#4d4d59;
+}
+
+form button{
+
+   width: 150px;
+   height: 30px;
+   border: 1px solid #E6E6F0;
+   border-radius: 8px;
+
+   background-color: rgb(245, 189, 189);
+
+   color: #4e40e9;
+
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 700;
+}
+
+
+
+
+
+
+
+
