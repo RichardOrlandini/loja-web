@@ -1,3 +1,53 @@
-body{
-  margin: 0 auto;
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  width: 400px;
+}
+
+form label{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+
+  width: 100%;
+  padding-bottom: 16px;
+  color: rgb(251, 168, 168);
+}
+
+form input{
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  
+  height: 56px;
+  width: 100%;
+
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  background-color:#4d4d59;
+}
+
+form button{
+
+   width: 150px;
+   height: 30px;
+   border: 1px solid #E6E6F0;
+   border-radius: 8px;
+
+   background-color: rgb(245, 189, 189);
+
+   color: #4e40e9;
+
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 700;
 }

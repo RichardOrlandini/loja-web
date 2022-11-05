@@ -1,0 +1,178 @@
+/*
+Body background
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #1d1d29;
+  
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+  
+    height: 720px;
+    width: 1280px;
+  
+    margin: 0 auto;
+    font-family: 'JetBrains Mono', monospace;
+  } 
+
+
+  
+  span{
+    color: rgb(196, 66, 6);
+  }
+  
+
+
+/* 
+Header:
+*/
+
+.logotipoHome{
+    max-width: 100px;
+  }
+  
+.home1{
+    max-width: 200px;
+  }
+  span{
+    color: rgb(196, 66, 6);
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 1060px;
+    margin: 74px auto;
+    margin-right: 120px;
+  }
+  
+  nav ul{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    
+  }
+  
+  ul li{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover{
+    color: rgb(139, 136, 136);
+    font-weight: 700;
+  }
+  
+ /*
+  Main
+ */
+
+
+ main{
+    width: 1092px;
+    height: 283px;
+    margin: 0px auto 160px;
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+  }
+  
+  section{
+    width: 604px;
+}
+
+section   h1{
+  font-size: 35px ;
+  line-height: 40px ;
+  font-weight: 700;
+}
+
+
+  
+  section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  section p span{
+    font-weight: 700;
+    font-size: 20px ;
+    line-height: 20px ;
+  
+  }
+
+  /*
+  footer
+
+  */
+
+  
+footer{
+    margin: 100px auto 23px;
+    width: 568px;
+    height: 55px;
+  }
+  
+  .line{
+    margin: 1px solid #00BFA6;
+  }
+  
+  #padlock{
+    position: fixed;
+    margin-bottom: 20px;
+    left: 20px;
+  }
+
+  /*
+  responsividade mobile
+  */
+
+  
+@media (max-width: 315px){
+
+
+    nav{
+      display: flex;
+      text-align: center;
+      gap: 30px;
+    }
+  
+    nav ul {
+      display: flex;
+      text-align: center;
+      gap: 30px;
+    }
+    
+    
+  main{
+    width: 100%;
+    margin:  auto;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  
+  .home1 img{
+    width: 400px;
+    margin-left: 60px;
+  }
+  
+  
+  section{
+    margin-left: 60px;
+  }
+}
