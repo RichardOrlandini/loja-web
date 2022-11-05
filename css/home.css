@@ -20,7 +20,7 @@ body{
   max-width: 200px;
 }
 span{
-  color: rgb(196, 6, 6);
+  color: rgb(196, 66, 6);
 }
 
 nav{
@@ -34,7 +34,6 @@ nav{
 
 nav ul{
   display: flex;
-  justify-content: space-between;
   text-align: center;
   gap: 50px;
   
@@ -113,3 +112,69 @@ footer{
   
   
 
+
+@media (max-width: 315px){
+
+
+  nav{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+  }
+
+  nav ul {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+  }
+  
+  
+main{
+  width: 100%;
+  margin:  auto;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.home1 img{
+  width: 400px;
+  margin-left: 60px;
+}
+
+
+section{
+  margin-left: 60px;
+}
+
+section   h1{
+  font-size: 35px ;
+  line-height: 40px ;
+}
+
+section span h1{
+  font-weight: 700;
+}
+
+section p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+section p span{
+  font-weight: 700;
+  font-size: 20px ;
+  line-height: 20px ;
+
+}
+
+footer{
+  margin-top: 500px;
+  margin-left: 60px;
+  height: 55px;
+}
+
+ 
+
+}
