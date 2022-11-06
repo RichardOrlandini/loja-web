@@ -3,8 +3,9 @@
 function createImg(src, alt){
     return `
         <img
-        src="/imgs/${src}.jpg" 
+        src="/imgs/${src}.jpg"  
         alt=${alt}>
+        
     `
 }
 function createCard(spanOne,spanTwo, imgs ){
@@ -22,14 +23,14 @@ document.querySelector("#container").innerHTML = `
     createImg("img1", "Imagem de uma casa Chique"
     ))}
     ${createCard("Ver mais", "São paulo",
-    createImg("img1", "Imagem de uma casa Chique"
+    createImg("img2", "Imagem de uma casa Chique"
     ))}
     ${createCard("Ver mais", "São paulo",
-    createImg("img1", "Imagem de uma casa Chique"
+    createImg("img3", "Imagem de uma casa Chique"
     ))}
     ${createCard("Ver mais", "São paulo",
-    createImg("img1", "Imagem de uma casa Chique"
+    createImg("img4", "Imagem de uma casa Chique"
     ))}
-    
+
 
 `
