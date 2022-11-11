@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap" rel="stylesheet">
     
     
@@ -15,19 +15,20 @@
     <title>Loja Web</title>
 </head>
 <body>
-    
-    <div class="logotipoHome">
-        <img id="logotipoHome" src="/imgs/logoWeb.png" width="100" height="100" alt="">
-    </div>
-    
-    <nav>
-        <a href="/" onclick="route()">Home</a>
-        <a href="/imoveis" onclick="route()">Imoveis</a>
-        <a href="/login" onclick="route()">Login</a>
-        <a href="/cadastro" onclick="route()">Cadastro</a>
-        <a href="/sobre" onclick="route()">Sobre</a> 
-        <a href="/404" onclick="route()">404</a> 
-    </nav>
+    <header>
+        <div class="logotipoHome">
+            <img id="logotipoHome" src="/imgs/logoWeb.png" width="100" height="100" alt="">
+        </div>
+        
+        <nav>
+            <a href="/" onclick="route()">Home</a>
+            <a href="/imoveis" onclick="route()">Imoveis</a>
+            <a href="/login" onclick="route()">Login</a>
+            <a href="/cadastro" onclick="route()">Cadastro</a>
+            <a href="/sobre" onclick="route()">Sobre</a> 
+            <a href="/404" onclick="route()" class="hide">404</a> 
+        </nav>
+    </header>
 
     <div id="app"></div>
 
