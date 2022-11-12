@@ -1,15 +1,14 @@
 
 
-
 h1 {
   font-weight: 800;
   font-size: var(--fs-heading);
   line-height: 4.8rem;
-  margin: 1rem 45rem 1rem;
+  margin: 0.5rem 45rem 1rem;
 }
 
 p{
-  margin: 6rem 50rem 0.1rem;
+  margin: 2rem 50rem 0.1rem;
 }
 
 p ,.busca h2{
@@ -25,24 +24,18 @@ p ,.busca h2{
 
   margin-top: 2rem;
   margin-left: 0;
+  position: absolute;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .busca form{
   display: flex;
   gap: 1rem;
+}
+
+form{
+  display: flex;
+
 }
 
 form input{
@@ -58,114 +51,79 @@ form input{
 
   font-size: 16px;
   line-height: 26px;
+  text-decoration: none;
 
   background-color:#4d4d59;
 }
 
+form button{
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+
+}
+
 form button img{
-  width: 0.8rem;
-  height: 0.9rem;
-  background-image:var(--bg-primary);
+  margin: 0;
+  padding: 0;
+  width: 2.5rem;
+  height: 3rem;
 }
 
 .menu-departamentos{
-  margin-top: 2rem;
-  padding: 1rem;
-  width: 25.0rem;
-  height: 100rem;
-
-  text-align: center;
+  margin-top: 3rem;
+  margin-left: 0;
+  min-height: 100rem;
 }
 
 .menu-departamentos nav{
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .menu-departamentos nav ul{
-
   display: flex;
   flex-direction: column;
-  gap: 12.5rem;
-  margin-left: 2rem;
-  width: 13.0rem;
+  gap: 5.5rem;
+  
+  
 }
+
 .menu-departamentos nav ul li{
-  width: 10rem;
+  width: 120rem;
 }
 
 .menu-departamentos nav ul span{
- 
-  background-color:rgba(44, 2, 62, 0.377);
-
+  width: 15rem;
+  background-color:rgba(62, 3, 88, 0.377);
+  border-radius: 1rem;
 }
 
-.menu-departamentos nav ul li a{
-  color:white;
-}
-
-
-
-header nav{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  margin-right: 12.0rem;
-}
-
-header .logotipoHome{
-  width: 8rem;
-}
-
-header nav ul{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  gap: 5rem;
-}
-
-nav ul li{
-  list-style: none;
-}
-ul li{
+nav ul{
   list-style: none;
 }
 
-nav ul li a{
-  text-decoration: none;
-  color: white;
+nav ul span li a{
+  margin-left: 5rem;
 }
 
-a:hover{
-  color: rgb(139, 136, 136);
-  font-weight: 700;
+#txtG{
+  margin-left: 1rem;
+  font-size: 1.5rem;
 }
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-header {
-  margin: 10rem 0 8rem;
-  font-family: var(--ff-heading);
-
-  text-align: center;
-  animation: topdown 700ms;
-}
-
-
-
-
 
 main {
+  margin-top: 15rem;
+  margin-left: 240px;
+
+  /*border: 1px solid #E6E6F0; */
+ 
   display: grid;
   gap: 3.2rem;
-
-  padding-bottom: 10rem;
   animation: downtop 700ms 350ms backwards;
 
   max-width: 90.0rem;
-  margin-left: 19.0rem;
+  min-height: 100rem;
 }
 
 .card {
@@ -176,6 +134,7 @@ main {
 
 .card img {
   height: 41.6rem;
+  width: 40rem;
   object-fit: cover;
   filter: brightness(0.5);
 
@@ -191,36 +150,45 @@ main {
 
 .card h2 {
   position: absolute;
-  bottom: 5.2rem;
+  top: 30rem;
+  bottom: 4.2rem;
   left: 2.8rem;
 
-  font-size: var(--fs-heading-sm);
-  font-weight: 800;
+  font-size: 2.2rem;
+  font-weight: 600;
 
   display: flex;
   flex-direction: column;
   gap: 2.8rem;
 }
 
- span {
-  border-radius: 2rem;
-  background-color: var(--fc-primary);
-  font-size: var(--fs-body);
-  font-weight: 400;
-  color: var(--fc-secondary-dark);
-  padding: 0 1.6rem;
+main .card h2 span {
+ border-radius: 2rem;
+ background-color: var(--fc-primary);
+ font-size: var(--fs-body);
 
-  width: fit-content;
-  height: 3.8rem;
+ font-weight: 400;
+ color: var(--fc-secondary-dark);
+ padding: 0 1.0rem;
 
-  display: inline-flex;
-  align-items: center;
+ width: fit-content;
+ height: 2.8rem;
+
+ display: inline-flex;
+ align-items: center;
 }
 
-span:hover{
-  color: rgb(139, 136, 136);
-  font-weight: 700;
+
+main .card h2 span:hover{
+  color: rgb(0, 0, 0);
+  font-weight: 800;
   cursor: pointer;
+}
+
+.products{
+  margin: 10rem auto 20rem;
+  width: 100rem;
+
 }
 
 .products h3{
@@ -234,23 +202,23 @@ span:hover{
 }
 
 .container{
-
-  margin-top: 10rem;
   display: grid;
   gap: 15.2rem;
-
+  
   padding-bottom: 10rem;
   animation: downtop 700ms 350ms backwards;
 }
+
 .container .card {
   display: flex;
   gap: 3rem;
-
+  
 }
 
 .container .card img{
   width: 25rem;
 }
+
 
 
 @keyframes topdown {
@@ -279,21 +247,21 @@ span:hover{
 
 
 @media (min-width: 700px) {
-  /* .page {
+   .page {
     max-width: 117rem;
     padding: 0 5rem;
-  } */
+  } 
 
   main {
     grid-template-columns: 1fr 1fr;
   }
-}
+
 
 @media (min-width: 930px) {
   
   main {
-    grid-template-areas: "A B B"
-    "C C D";
+    grid-template-areas: "A  B"
+    "C  D";
   }
 
   main div:nth-child(1) {
@@ -311,4 +279,21 @@ span:hover{
   main div:nth-child(4) {
     grid-area: D;
   }
+ }
 }
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
