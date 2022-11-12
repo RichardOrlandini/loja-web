@@ -1,21 +1,5 @@
 
 
-span{
-  color: rgb(196, 6, 6);
-}
-
-main{
-  display: flex;
-  justify-content: baseline;
-  gap: 350px;
-}
-
-.home1{
-  max-width: 200px;
-  margin-left: 100px;
-}
-
-
 form{
   display: flex;
   flex-direction: column;
