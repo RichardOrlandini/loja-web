@@ -127,40 +127,104 @@ section div{
   /*
   responsividade mobile
   */
-
   
-@media (max-width: 315px){
+@media (max-width: 400px){
 
+  body{
+    margin: 0;
+    padding: 1px;
+  }
 
-    nav{
-      display: flex;
-      text-align: center;
-      gap: 30px;
+  #app{
+    align-items: center;
+    margin-left: 1px;
+    padding: 0;
+  }
+
+    #logotipoHome{
+      width: 40px;
+      height: 40px;
+      margin-top: 20px;
     }
-  
-    nav ul {
+
+    header{
       display: flex;
-      text-align: center;
-      gap: 30px;
+      justify-content: space-between;
+      }
+    
+    header nav a{
+      font-size: 10px;
+      display: flex;
     }
     
     
   main{
-    width: 100%;
-    margin:  auto;
-    
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 30px;
+
+    
   }
   
-  .home1 img{
-    width: 400px;
-    margin-left: 60px;
+  main .home img{
+    max-width: 200px;
+    height: 150px;
   }
-  
-  
+
   section{
-    margin-left: 60px;
+    width: 250px;
+    font-size: 14px;
+    font-weight: 14px;
+  }
+
+  section h1{
+    font-size: 24px;
+    font-weight: 34px;
+  }
+}
+
+  
+@media (max-width: 700px){
+
+  body{
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #app{
+    margin: 20px 15px 10px 15px;
+    align-items: center;
+  }
+
+    #logotipoHome{
+      width: 40px;
+      height: 40px;
+      margin-top: 20px;
+    }
+
+    body header{
+     max-width: 300px;
+    }
+    
+    header nav a{
+      font-size: 10px;
+      display: flex;
+      margin-left: 0px;
+    }
+    
+    
+  main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    font-size: 14px;
+    font-weight: 14px;
+  }
+  
+  .home img{
+    width: 280px;
+    height: 200px;
+    margin-left: 10px;
   }
 }
