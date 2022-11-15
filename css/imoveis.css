@@ -18,6 +18,7 @@ p ,.busca h2{
   line-height: 3.2rem;
 }
 
+
 .container-destaque{
   width: 100px;
   min-height: 150px;
@@ -172,6 +173,10 @@ span {
   height: 3rem;
  
   align-items: center;
+ }
+
+ #spanP{
+  margin-left: 3.4rem;
  }
 
 main .card h2 span {
