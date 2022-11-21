@@ -32,6 +32,7 @@ fieldset legend {
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
+  color: #393939;
 
   width: 100%;
 
@@ -186,3 +187,59 @@ footer .button:hover {
 input:invalid {
  border: 1px solid #FF1010;
 }
+
+@media (max-width: 800px){
+  .page {
+    width: 636px;
+  }
+}
+
+
+@media (max-width: 677px){
+  .page {
+    width: 536px;
+  }
+}
+
+@media (max-width: 575px){
+  .page {
+    width: 436px;
+  }
+}
+
+
+
+@media (max-width: 477px){
+  .page {
+    width: 336px;
+  }
+
+  fieldset legend {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .input-wrapper input, 
+.input-wrapper textarea,
+.input-wrapper select {
+
+  font-size: 14px;
+  line-height: 16px;
+  height: 36px;
+
+
+  color: #6c6a71;
+}
+}
+
+@media (max-width: 378px){
+  .page {
+    width: 300px;
+  }
+
+  form {
+    padding: 34px;
+  }
+}
+
+

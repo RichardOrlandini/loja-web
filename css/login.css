@@ -16,7 +16,7 @@ form label{
 
   width: 100%;
   padding-bottom: 16px;
-  color: rgb(251, 168, 168);
+  color: rgb(248, 215, 215);
 }
 
 form input{
@@ -43,7 +43,7 @@ form button{
    border: 1px solid #E6E6F0;
    border-radius: 8px;
 
-   background-color: rgb(245, 189, 189);
+   background-color: rgb(212, 203, 203);
 
    color: #4e40e9;
 

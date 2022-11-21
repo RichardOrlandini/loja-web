@@ -122,7 +122,95 @@ section div{
 
 
 
+/*
+footer
+*/
 
+
+@keyframes cidade {
+0% {
+  left: 0%;
+  }
+
+100%{
+left: 100%;
+}
+}
+
+.cidade2 {
+
+  background: url(https://rawartsites.neocities.org/img/Footer/cyclist.gif) no-repeat;
+  width: 200px;
+  height: 109px;
+  left: 0%;
+  bottom: 0;
+  background-size: 80px;
+  animation: cidade2 15s linear infinite;
+  position: absolute;
+
+}
+
+@keyframes cidade2 {
+0% {
+  left: 0%;
+  }
+
+100%{
+left: 100%;
+}
+}
+
+ .cidadeinfo {
+
+  color: #b3b3d0;
+  width: 1150px;
+  margin: 0px auto;
+  padding: 228px 0 0 0;
+  display: flex;
+
+}
+
+ .cidadeinforight {
+
+  position: absolute;
+  text-align: right;
+  width: inherit;
+
+}
+
+  .cidadeinforight p, .cidadeinforight a {
+
+  color: #b3b3d0;
+
+}
+
+  @media (max-width: 768px) {
+
+.cidadeinforight {
+  
+  position: relative;
+  text-align: right;
+  width: auto;
+  padding: 0 8px;
+  
+}
+
+.cidadeinfo {
+  
+  position: relative;
+  width: inherit;
+  max-width: fit-content;
+  font-size: 12px;
+  z-index: 100;
+  
+   }	
+
+}
+
+.line{
+  border-bottom: 1p solid #ffffff;
+  padding: 1px;
+}
 
   /*
   responsividade mobile
@@ -227,4 +315,24 @@ section div{
     height: 200px;
     margin-left: 10px;
   }
+
 }
+
+@media (min-width: 1579px) {
+ 
+  header{
+    justify-content: none;
+    margin-right: 200px;
+  }
+
+}
+
+@media (max-width: 1579px) {
+ 
+  header{
+    justify-content: none;
+    margin-right: 200px;
+  }
+
+}
+
