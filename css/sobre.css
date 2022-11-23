@@ -1,5 +1,4 @@
 
-
  h2{
   font-weight: 600;
   font-size: 2.2rem;
@@ -8,4 +7,13 @@
   text-align: center;
   border-bottom: 1px solid #fff;
   padding: 2rem;
+}
+
+
+@media (max-width:700){
+  h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
 }

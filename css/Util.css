@@ -77,8 +77,8 @@ a:hover{
     font-weight: 700;
   }
 
-/*
-main{
+
+.mainHome{
     width: 1092px;
     height: 283px;
     display: flex;
@@ -88,37 +88,36 @@ main{
     margin-top: 6.6rem
   }
 
-.home img{
+ .home img{
     width: 45rem;
     height: 30rem;
   }
   
-section{
+.mainHome section{
     width: 604px;
 }
 
-section   h1{
+.mainHome section   h1{
   font-size: 35px ;
   line-height: 40px ;
   font-weight: 700;
 }
 
   
-section p{
+.mainHome section p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
   
-section p span{
+.mainHome section p span{
     font-weight: 700;
     font-size: 20px ;
     line-height: 20px ;
 }
 
-section div{
+.mainHome section div{
   margin-top: 6.6rem;
 }
-*/
 
 
 
@@ -160,7 +159,6 @@ section div{
   
 
 
-/*
   
 @media (max-width: 700px){
 
@@ -207,7 +205,6 @@ section div{
   }
 
 }
-*/
 
 @media (min-width: 1579px) {
  

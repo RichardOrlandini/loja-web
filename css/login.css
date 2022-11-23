@@ -38,7 +38,7 @@ form input{
 
 form button{
 
-   width: 150px;
+   width: 15.0rem;
    height: 30px;
    border: 1px solid #E6E6F0;
    border-radius: 8px;
@@ -52,6 +52,15 @@ form button{
    font-weight: 700;
 }
 
+@media (max-width: 600px){
+  form bottom{
+    width: 10rem;
+  }
+
+  form input{
+    width: 60%;
+  }
+}
 
 
 
